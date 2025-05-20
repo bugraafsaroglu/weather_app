@@ -13,4 +13,5 @@ Python ile geliştirilmiş bu uygulama, kullanıcıdan şehir ismi alarak [Weath
 
 ---
 
+![güncel-hava-durumu](https://github.com/user-attachments/assets/dad1d5c4-cef0-4e12-b4fe-bedf3282f51a)
 
