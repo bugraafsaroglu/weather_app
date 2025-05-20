@@ -8,7 +8,6 @@ Python ile geliştirilmiş bu uygulama, kullanıcıdan şehir ismi alarak [Weath
 
 - Kullanıcıdan şehir bilgisi alır  
 - WeatherAPI kullanarak güncel hava durumu verisini çeker  
-- Modüler yapı: `weather.py`, `utils.py`, `main.py`
 - API anahtarı harici dosyada saklanır (güvenlik için)
 
 ---
