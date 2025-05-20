@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Birden Fazla Şehir Hava Durumu</title>
+</head>
+<body>
+    <h1>Birden Fazla Şehir Hava Durumu</h1>
+    <ul>
+        {% for city, data in weather_data.items() %}
+            <li>
+                <h2>{{ city }}</h2>
+                <p>Sıcaklık: {{ data['temp_c'] }}°C</p>
+                <p>Hava Durumu: {{ data['condition'] }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
